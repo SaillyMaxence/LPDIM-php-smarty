@@ -1,4 +1,27 @@
-<head>
+<?php
+/* Smarty version 3.1.33, created on 2019-04-03 20:32:28
+  from 'C:\xampp\htdocs\gitRepository\LPDIM-php-smarty\templates\header.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5ca4fc3c52a192_81659857',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'dd40825a7d44ccfccf7df9577bec2aa5454e9ded' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\gitRepository\\LPDIM-php-smarty\\templates\\header.tpl',
+      1 => 1554315854,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5ca4fc3c52a192_81659857 (Smarty_Internal_Template $_smarty_tpl) {
+?><head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +34,9 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"><?php echo '</script'; ?>
+>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -49,3 +74,5 @@
             </div>
         </div>
     </header>
+<?php }
+}

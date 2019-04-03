@@ -1,4 +1,27 @@
-<footer class="text-center">
+<?php
+/* Smarty version 3.1.33, created on 2019-04-03 20:35:25
+  from 'C:\xampp\htdocs\gitRepository\LPDIM-php-smarty\templates\footer.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5ca4fced311b02_83858668',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '630ecd37be6688a0ab74b46dd249b910e46fc38a' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\gitRepository\\LPDIM-php-smarty\\templates\\footer.tpl',
+      1 => 1554316444,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5ca4fced311b02_83858668 (Smarty_Internal_Template $_smarty_tpl) {
+?><footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -43,9 +66,19 @@
             <li class="sprite icone-5"></li>
         </ul>
     </div>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/freelancer.min.js"></script>    
+    <?php echo '<script'; ?>
+ src="vendor/jquery/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="vendor/bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/freelancer.min.js"><?php echo '</script'; ?>
+>    
 </body>
 </html>
+<?php }
+}

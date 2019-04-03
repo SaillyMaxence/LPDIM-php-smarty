@@ -1,0 +1,19 @@
+li.sprite {
+	list-style:none;
+	height: 72px; 
+	width: 74.3px; 
+	display: inline-block;
+	background: url("./../img/sprite.png") no-repeat; 
+ }
+
+.icone .icone-1 { background-position: left top; }
+.icone .icone-2 { background-position: 25% top; }
+.icone .icone-3 { background-position: 50% top; }
+.icone .icone-4 { background-position: 75% top; }
+.icone .icone-5 { background-position: 100% top; }
+
+.icone .icone-1:hover { background-position: left bottom; }
+.icone .icone-2:hover { background-position: 25% bottom; }
+.icone .icone-3:hover { background-position: 50% bottom; }
+.icone .icone-4:hover { background-position: 75% bottom; }
+.icone .icone-5:hover { background-position: 100% bottom; }
